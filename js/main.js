@@ -146,7 +146,7 @@ function agregarAlCarrito(producto) {
 function mostrarElCarrito() { 
     let total = carrito.reduce((acc, producto) => acc + producto.precio, 0);
     let detalles = carrito.map(producto => `• ${producto.modelo} - ${producto.almacenamiento} - U$D${producto.precio}`).join('\n');
-    alert(`Detalles del carrito:\n${detalles}\nTotal: U$D${total.toFixed(2)}`);
+    alert(`Detalles del carrito:\n${detalles}\nTotal: U$D ${total.toFixed(2)}`);
 }
 
 function salir() { // le permite al usuario poder salir
@@ -190,7 +190,7 @@ function filtrarPrecios() { // filtra los precios del mas caro al mas barato y v
     for (let producto of ordenado) {
         detalles += `${producto.producto}:\n`;
         for (let opcion of producto.opciones) {
-            detalles += `- Modelo: ${opcion.modelo}, Almacenamiento: ${opcion.almacenamiento}, Precio: U$D${opcion.precio}\n`;
+            detalles += `- Modelo: ${opcion.modelo}, Almacenamiento: ${opcion.almacenamiento}, Precio: U$D ${opcion.precio}\n`;
         }
         detalles += "\n";
     }
