@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: block;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 460;
+    letter-spacing: -.022em;
+    font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif ;
+}
+
+nav{
+    display: flex;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+}
+nav ul{
+    display: flex;
+
+}
+nav ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    font-family: inherit;
+}
+nav ul li a:hover{
+    color:whitesmoke
+}
+i{
+    color: white;
+    padding: 16px;
+}
+.shooping{
+    color: white;
+}
+h1{
+    text-align: center;
+font-size: 50px;
+color: aliceblue;
+
+}
+h2{
+    color: aliceblue;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.link{
+    text-align: center;
+    padding: 20px;
+}
+.link span{
+    padding: 15px;
+}
+.link a{
+    color:#2997ff;
+    font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif ;
+    font-size: 21px;
+    text-decoration: none;
+}
+.link a:hover{
+    cursor: pointer;
+}
+.photo img{
+    
+    width: 45%;
+    position: absolute;
+    top: 45%;
+    left: 28%;
+}
+
